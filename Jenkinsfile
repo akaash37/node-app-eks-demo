@@ -12,7 +12,7 @@ pipeline {
 
         stage('Checkout Code') {
             steps {
-                git 'https://github.com/akaash37/node-app-eks-demo.git'
+                checkout scm
             }
         }
 
